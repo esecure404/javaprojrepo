@@ -1,5 +1,5 @@
 FROM openjdk:9-jre
-COPY target/*.jar /app.jar
+COPY target/*.war  /app.war
 
 ENV JAVA_OPTS=""
 ENV SERVER_PORT 8080
